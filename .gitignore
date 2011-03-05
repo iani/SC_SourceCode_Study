@@ -21,3 +21,9 @@ common/Packager/SuperCollider*.dmg
 
 #build directory
 /build*
+
+# emacs-generated autosave and backup files
+*.*~
+*~
+\#*
+*\#

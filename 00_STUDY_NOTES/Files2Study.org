@@ -1,0 +1,29 @@
+<2011-03-04 Fri 18:04>
+
+Folder: file:./supercollider/include/server
+
+Files:
+
+HashTable.h : HashTable class for commands. This file defines both the structure and the methods (member functions) needed to run a HashTable. 
+
+SC_GraphDef.h : Data structures and data (variables) required to manage Graphs and Graph definitions for synthesis. Note: Also defines ParamSpecTable, a HashTable used for access to the parameters of a SynthGraph during real-time control. 
+
+
+Folder file:./supercollider/server/scsynth :
+
+Files: 
+
+Most especially and first: 
+
+SC_MiscCmds.cpp : Defines the server commands (n_set, s_new etc. )
+SC_Lib.cpp:       Defines NewCommand class for creating the server commands above
+
+Other:
+
+SC_Unit.cpp
+SC_UnitDef.cpp
+scsynth_main.cpp
+SC_Node.cpp
+SC_World.cpp
+
+
